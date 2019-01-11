@@ -40,4 +40,20 @@
       &:before { border-color: $orange; }
     }
   }
+
+  &--solid {
+    background-color: $partner; color: $white;
+    &:hover { background-color: darken($partner,5); }
+  }
+
+  &--black {
+    background-color: $grey-darkest; color: $white;
+    &:hover { background-color: $black; }
+  }
+
+  &--white {
+    background-color: rgba($white,0.8); color: $grey-darkest;
+    &:hover { background-color: $white; }
+  }
+
 }
