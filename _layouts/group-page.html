@@ -2,7 +2,33 @@
 layout: default
 ---
 
-<div class="container vpad--xxl text--center">
-  <h1 class="title title--lg">{{page.title}}</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint odit aliquam reprehenderit magni eius, esse quisquam minima inventore, adipisci excepturi. Quibusdam sequi eum labore vitae recusandae aliquam commodi, consectetur itaque.</p>
+<div class="container container--xl vpad--xxl text--center">
+  {{page.intro}}
+</div>
+
+
+
+<div class="bg--grey-lightest vpad--xxl">
+  {% for section in page.sections %}
+    <div class="container">
+
+      <div class="container container--xl text--center">
+        <h1 class="title title--lg">{{section.title}}</h1>
+        <p class="text--lg">{{section.content}}</p>
+      </div>
+
+      <div class="space--lg"></div>
+      <div class="row row--6-6 row--gutters-xl">
+        {% for highlight in section.highlights %}
+        <div class="col">
+          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);"></div>
+          <div class="space--md"></div>
+          <h4 class="title title--xxs">{{highlight.title}}</h4>
+          <div class="space--xxs"></div>
+          {{highlight.content}}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
 </div>
