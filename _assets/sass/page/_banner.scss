@@ -59,4 +59,15 @@
       bottom: auto;
     }
   }
+  &:before {
+    content: "";
+    height: 80px; width: 100%;
+    background-position: center 0;
+    background-repeat: repeat-x;
+    background-size: auto 101%;
+    background-image: url(../img/icons/banner-texture.png);
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    z-index: 10;
+  }
 }

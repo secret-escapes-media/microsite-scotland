@@ -8,27 +8,29 @@ layout: default
 
 
 
-<div class="bg--grey-lightest vpad--xxl">
-  {% for section in page.sections %}
-    <div class="container">
+{% for section in page.sections %}
+<div class="{% cycle '', ' bg--grey-lightest' %}">
+  <div class="container">
 
-      <div class="container container--xl text--center">
-        <h1 class="title title--lg">{{section.title}}</h1>
-        <p class="text--lg">{{section.content}}</p>
-      </div>
-
-      <div class="space--lg"></div>
-      <div class="row row--6-6 row--gutters-xl">
-        {% for highlight in section.highlights %}
-        <div class="col">
-          <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/img.jpg);"></div>
-          <div class="space--md"></div>
-          <h4 class="title title--xxs">{{highlight.title}}</h4>
-          <div class="space--xxs"></div>
-          {{highlight.content}}
-        </div>
-        {% endfor %}
-      </div>
+    {% if section.title or section.content %}
+    <div class="container container--xl text--center">
+      <h1 class="title title--lg">{{section.title}}</h1>
+      <p class="text--lg">{{section.content}}</p>
     </div>
-  {% endfor %}
+    <div class="space--lg"></div>
+    {% endif %}
+
+    <div class="row row--6-6 row--gutters-xl">
+      {% for highlight in section.highlights %}
+      <div class="col">
+        <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);"></div>
+        <div class="space--md"></div>
+        <h4 class="title title--xs text--bold text--upper">{{highlight.title}}</h4>
+        <p>{{highlight.content}}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="vpad--xl"></div>
 </div>
+{% endfor %}

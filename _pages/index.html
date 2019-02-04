@@ -7,38 +7,28 @@ title: Overview
 
 banner:
   content: >
-    <div class="container">
-      <span class="title title--sm text--bold">Experience</span>
-      <h1 class="banner-title">Scotland</h1>
-      <span class="title title--sm text--bold">in Spring</span>
-    </div>
+    <span class="title title--lg text--light text--upper text--wide-kern">Spring in</span>
+    <h1 class="banner-title">Scotland</h1>
+    <div class="scotlandisnow"></div>
 
+intro: >
+  <p class="text--lg">As Winter turns to Spring, the sweeping landscapes of Scotland begin to shine with life once more - there’s simply no better time to visit. From the sun-specked coastal towns along the westerly shores to the sprawling forests of the mainland, there’s a hidden treasure-trove of springtime wonders for all those who seek to find them. Discover ancient castles, shimmering lochs, relaxing getaways and adrenaline-fuelled adventures in the Scottish wilderness. Indeed, whether you’ve come for the adventure, the culture, or as an escape from the daily rat-race, there’s a few things in Scotland you can be sure to expect: clean air, staggering views, and some world-famous seafood.</p>
 
 ---
 
-<div class="container vpad--xxl">
-
-  <div class="bob">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
-    </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-      <a href="javascript:void(0);" data-modal-item="highlight" class="js-open-modal btn btn--solid">Button</a>
-    </div>
-  </div>
-  <div class="bob bob--swap">
-    <div class="bob__img">
-      <a href="#image-link">
-        <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/img.jpg');"></div>
-      </a>
-    </div>
-    <div class="bob__text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a laborum, amet repellat, quasi exercitationem laboriosam quisquam officia voluptatem officiis magnam perferendis iste dolor dolore ipsa illo non pariatur cumque quod delectus nostrum rem facilis! Ipsum, nostrum debitis illum voluptas ad molestias. Dolor repellendus atque aut magni sapiente nam et quas consectetur nulla nemo tempore, alias, quae eius obcaecati voluptas, quos neque, inventore minima officiis reprehenderit ullam. Asperiores adipisci possimus inventore quia odit aliquam incidunt commodi iste explicabo dolore impedit consequuntur temporibus iusto dolor repudiandae at tempore repellendus, atque hic accusantium doloribus placeat. Dolores provident tempore molestias laborum ad repudiandae.</p>
-    </div>
+<div class="vpad--xxl">
+  <div class="container container--xxl text--center">
+    {{page.intro}}
   </div>
 
+  <div class="container">
+    <div class="row row--4-4-4">
+      {% assign guides = site.html_pages | where: 'group-parent', 'explore' | sort: 'group-order' %}
+      {% for guide in guides %}
+        <div class="col">
+          {% include page/guide-tile.html %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
-

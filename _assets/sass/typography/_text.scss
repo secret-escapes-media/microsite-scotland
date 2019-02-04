@@ -14,8 +14,9 @@
   &--medium       { font-weight: 500; }
   &--bold         { font-weight: 600; }
   &--bolder       { font-weight: 700; }
-  &--wide-kern    { letter-spacing: .15em; }
-  &--wide-kern-lg { letter-spacing: .3em; }
+  &--boldest      { font-weight: 800; }
+  &--kern-lg      { letter-spacing: .15em; }
+  &--kern-xl      { letter-spacing: .3em; }
   &--upper        { text-transform: uppercase; }
 
   // colours
