@@ -17,6 +17,7 @@
 }
 
 .vs-banner {
+  & .col { position: relative; }
   position: relative;
   &__video {
     border-radius: 5px; box-shadow: 0 0 20px 0 rgba($black,0.3);
@@ -30,5 +31,25 @@
     background-size: cover;
     background-position: center;
     background-image: url('../img/content/vs-gradient.jpg');
+  }
+  &__scotlandisnow {
+    position: absolute;
+    right: 0;
+    margin-top: $s4;
+  }
+}
+
+.img-location {
+  padding-left: 30px;
+  position: relative;
+  font-weight: 600;
+  &:before {
+    content: "";
+    width: 20px; height: 20px;
+    position: absolute;
+    left: 0; top: 0;
+    background-image: url('../img/icons/map-pin-white.svg');
+    background-repeat: no-repeat; background-position: center;
+    background-size: contain;
   }
 }

@@ -28,3 +28,8 @@ hr {
   background-color: $grey-lightest;
   margin: $s1 0;
 }
+
+.hr {
+  &--center { width: 80px; margin-left: auto; margin-right: auto; }
+  &--white { background-color: $white; }
+}

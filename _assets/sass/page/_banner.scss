@@ -70,4 +70,14 @@
     bottom: 0; left: 0; right: 0;
     z-index: 10;
   }
+  &__scotlandisnow {
+    position: absolute;
+    bottom: $s10;
+    right: $s4;
+  }
+  &__img-location {
+    position: absolute !important;
+    bottom: $s10;
+    left: $s4;
+  }
 }
