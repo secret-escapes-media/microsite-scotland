@@ -88,4 +88,11 @@
   @include bp($xl){ font-size: $s10; }
   @include bp($xxl){ font-size: $s11; }
 
+  &--sm {
+    font-size: $s4;
+    @include bp($md){ font-size: $s6; }
+    @include bp($xl){ font-size: $s8; }
+    @include bp($xxl){ font-size: $s9; }
+  }
+
 }
