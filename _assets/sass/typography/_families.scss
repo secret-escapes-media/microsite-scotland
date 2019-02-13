@@ -2,6 +2,23 @@
 // need to put a friendly reminder where the g fonts snippet needs to go in the whole site
 // additional families need to included in includes > page > head
 
+@font-face {
+  font-family: 'Eveleth Regular';
+  src: url('../fonts/eveleth-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/eveleth-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/eveleth-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/eveleth-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/eveleth-regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Eveleth Thin';
+  src: url('../fonts/eveleth-thin.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/eveleth-thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/eveleth-thin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/eveleth-thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/eveleth-thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 $font-core: 'Open Sans', 'Helvetica Neue', sans-serif;
-$font-title-01: 'Montserrat', 'Helvetica Neue', sans-serif;
-$font-title-display: 'Montserrat', 'Helvetica Neue', sans-serif;
+$font-title-01: 'Eveleth Regular', 'Montserrat', 'Helvetica Neue', sans-serif;

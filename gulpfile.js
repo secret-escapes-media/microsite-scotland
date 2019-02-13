@@ -58,6 +58,11 @@ gulp.task('watch-sass', ['build-sass'], function() {
   gulp.watch(['_assets/sass/**/*.scss'], ['build-sass']);
 });
 
+// watch for fonts
+gulp.task('watch-fonts', ['build-fonts'], function() {
+  gulp.watch(['_assets/fonts/*.*'], ['build-fonts']);
+});
+
 // watch for main js
 gulp.task('watch-main-js', ['build-main-js'], function() {
   gulp.watch(['_assets/js/**/*.js'], ['build-main-js']);
@@ -143,6 +148,11 @@ gulp.task('build-js', function(cb) {
   }))
 });
 
+gulp.task('build-fonts', function(cb) {
+  return gulp.src('./_assets/fonts/**/*.*')
+  .pipe(gulp.dest('./_site/_assets/fonts/'))
+});
+
 gulp.task('build-images', function(cb) {
   return gulp.src('./_assets/img/**/*.*')
   .pipe(gulp.dest('./_site/_assets/img/'))
@@ -203,6 +213,7 @@ gulp.task('default', gulpSequence(
     'serve',
     'watch-jekyll',
     'watch-sass',
+    'watch-fonts',
     'watch-main-js',
     'watch-js',
     'watch-images'
@@ -215,6 +226,7 @@ gulp.task('build', gulpSequence(
   [
     'build-jekyll',
     'build-sass',
+    'build-fonts',
     'build-main-js',
     'build-js',
     'build-images'

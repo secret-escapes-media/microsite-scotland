@@ -78,10 +78,9 @@
 .banner-title {
 
   // custom banner headline
-  font-family: $font-title-display;
+  font-family: $font-title-01;
   text-transform: uppercase;
   line-height: 1;
-  letter-spacing: 0.15em;
   font-size: $s5;
   font-weight: 600;
   @include bp($md){ font-size: $s7; }

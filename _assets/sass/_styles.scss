@@ -1,9 +1,9 @@
 // general styles for the project that wouldn't be a reuseable component
 
 .scotlandisnow {
-  width: 500px;
+  width: 400px;
   display: inline-block;
-  background-image: url('../img/logo/scotlandisnow.svg');
+  background-image: url('../img/logo/scotlandisnow.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -13,7 +13,8 @@
     width: 100%;
     padding-top: 10%;
   }
-  &--sm { width: 360px; }
+  &--sm { width: 320px; }
+  &--xs { width: 220px; }
 }
 
 .vs-banner {
@@ -33,9 +34,22 @@
     background-image: url('../img/content/vs-gradient.jpg');
   }
   &__scotlandisnow {
-    position: absolute;
-    right: 0;
-    margin-top: $s4;
+    float: left;
+  }
+  &__logo {
+    width: 240px;
+    float: right;
+    display: inline-block;
+    background-image: url('../img/logo/partner.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 7%;
+    }
   }
 }
 
@@ -43,6 +57,7 @@
   padding-left: 30px;
   position: relative;
   font-weight: 600;
+  text-shadow: 0 0 20px rgba($black,0.7);
   &:before {
     content: "";
     width: 20px; height: 20px;
@@ -51,5 +66,10 @@
     background-image: url('../img/icons/map-pin-white.svg');
     background-repeat: no-repeat; background-position: center;
     background-size: contain;
+  }
+  &--sm {
+    padding-left: 20px;
+    font-size: 12px;
+    &:before { width: 15px; height: 15px; }
   }
 }

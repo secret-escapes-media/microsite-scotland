@@ -23,7 +23,9 @@ layout: default
     <div class="row row--6-6 row--gutters-xl">
       {% for highlight in section.highlights %}
       <div class="col">
-        <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);"></div>
+        <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{page.id}}/highlights/{{highlight.id}}.jpg);">
+          {% if highlight.location %}<div class="bg-img__location"> <div class="img-location img-location--sm">{{highlight.location}}</div> </div> {% endif %}
+        </div>
         <div class="space--md"></div>
         <h4 class="title title--xs text--bold">{{highlight.title}}</h4>
         <p>{{highlight.content}}</p>
@@ -31,6 +33,14 @@ layout: default
       {% endfor %}
     </div>
   </div>
+  {% if page.external-link %}
+  <div class="text--center">
+    <div class="vpad--md"></div>
+    <a href="{{page.external-link}}" target="_blank" id="tracking-external-btn-{{page.id}}" class="btn btn--solid">Read more on Visitscotland.com</a>
+  </div>
+  {% endif %}
   <div class="vpad--xl"></div>
 </div>
 {% endfor %}
+
+
