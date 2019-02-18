@@ -73,11 +73,22 @@
   &__scotlandisnow {
     position: absolute;
     bottom: $s10;
-    right: $s4;
+    right: auto;
+    left: auto;
+    text-align: center;
+    @include bp($xl){
+      right: $s4;
+      left: auto;
+      text-align: right;
+    }
   }
   &__img-location {
     position: absolute !important;
     bottom: $s10;
     left: $s4;
+    display: none;
+    @include bp($xl){
+      display: block;
+    }
   }
 }
