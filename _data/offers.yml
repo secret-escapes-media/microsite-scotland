@@ -1,49 +1,132 @@
-- title: Spectacular Oslo & Bergen break with optional fjord tour
-  id: spectacular-oslo-bergen-break-with-optional-fjord-tour
-  location: Scandic St. Olavs plass & Clarion Hotel Admiral, Norway
-  description: A fantastic four-night trip to Norway's Oslo and Bergen, with one of the world's most scenic train journeys between the two cities - including flights and an optional fjord tour
-  price: 459
-  price-description: per person for 4 nights
-  saved: 37
-  expires: 2020/04/14
-  link: https://www.secretescapes.com/spectacular-oslo-and-bergen-break-with-optional-fjord-tour-scandic-st-olavs-plass-and-clarion-hotel-admiral-norway-2/sale?gce_urg=0&utm_source=SE&utm_campaign=7_Norway_201703&utm_medium=Hub
 
-- title: Farris Bad
-  id: farris-bad
-  location: Larvik, Norway
-  description: Upscale beachfront stay at the first Nordic balneological health resort, with a supersized spa
-  price: 214
-  price-description: per room per night
-  saved: 33
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/farris-bad-larvik-norway/sale?gce_urg=1&gce_scp=0&utm_source=SE&utm_medium=Hub&utm_campaign=12_Norway_201703
-
-- title: First Hotel Marin
-  id: first-hotel-marin
-  location: Bergen, Norway
-  description: A unique stay in the centre of picturesque Bergen, just a stone's throw from the harbour
-  price: 48
+- title: Hotel Indigo Dundee
+  id: hotel-indigo-dundee
+  location: Dundee, Scotland
+  description: Chic design-led digs in the heart of Dundee
+  price: 114
   price-description: per room per night
   saved: 43
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/first-hotel-marin-bergen-norway/sale?gce_scp=1&utm_source=SE&utm_medium=Hub&utm_campaign=13_Norway_201704
+  expires: 2019/02/19
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/87758/77a284cc_4983_4afd_adc6_dd9f545561f4.jpg
+  link: https://www.secretescapes.com/hotel-indigo-dundee-dundee-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
 
-- title: Magic Hotel
-  id: magic-hotel
-  location: Bergen, Norway
-  description: A brand-new hip hotel in the centre of Bergen, designed by a top New York designer
-  price: 73
-  price-description: per room per night
-  saved: 55
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/magic-hotel-bergen-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=14_Norway_201704
-
-- title: Sola Strand Hotel
-  id: sola-strand-hotel
-  location: Sola, Norway
-  description: Discover one of the world's sixth best beaches on Norway's gorgeous coast, with breakfast and more
-  price: 79
+- title: Ardoe House Hotel & Spa
+  id: ardoe-house-hotel-and-spa
+  location: Aberdeen, Scotland
+  description: An opulent Victorian country escape near Aberdeen
+  price: 109
   price-description: per room per night
   saved: 47
-  expires: 2020/04/20
-  link: https://www.secretescapes.com/sola-strand-hotel-sola-norway/sale?gce_hpf=1&utm_source=SE&utm_medium=Hub&utm_campaign=15_Norway_201704
+  expires: 2019/02/19
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/79163/d9d2f35b_e00b_468f_8a70_20cc16d813e7.jpg
+  link: https://www.secretescapes.com/ardoe-house-hotel-and-spa-aberdeen-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Dunkeld House Hotel
+  id: dunkeld-house-hotel
+  location: Perthshire, Scotland
+  description: A Scottish riverside retreat with spa and wooded grounds
+  price: 99
+  price-description: per room per night
+  saved: 51
+  expires: 2019/02/19
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/51515/953209c3_c1a9_4ed0_9565_a7b357c1c17f.jpg
+  link: https://www.secretescapes.com/dunkeld-house-hotel-perthshire-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Ednam House Hotel
+  id: ednam-house-hotel
+  location: Kelso, Scottish Borders
+  description: A traditional country house stay in the Scottish Borders
+  price: 105
+  price-description: per room per night
+  saved: 52
+  expires: 2019/02/19
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/82705/f4f6d5bd_b7d9_4597_bf2b_d333f73e7236.jpg
+  link: https://www.secretescapes.com/ednam-house-hotel-kelso-scottish-borders/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Hotel Indigo Edinburgh
+  id: hotel-indigo-edinburgh
+  location: Edinburgh, Scotland
+  description: Discover historic Edinburgh from central modern digs
+  price: 76
+  price-description: per room per night
+  saved: 31
+  expires: 2019/02/19
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/54788/719050b0_83ab_49aa_b894_1321b54086db.jpg
+  link: https://www.secretescapes.com/stylish-mystery-edinburgh-hotel-edinburgh-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Loch Melfort Hotel
+  id: loch-melfort-hotel
+  location: Argyll, Scottish Highlands
+  description: Dramatic Scottish landscapes and sea views on the Argyll coast
+  price: 89
+  price-description: per room per night
+  saved: 58
+  expires: 2019/02/19
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/54183/be82b4cb_9702_4402_8275_31ff98585025.jpg
+  link: https://www.secretescapes.com/loch-melfort-hotel-argyll-scottish-highlands/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Knockderry Country House Hotel
+  id: knockderry-country-house-hotel
+  location: Argyll & Bute, Scotland
+  description: Escape to a hidden gem on Scotland's Loch Long
+  price: 79
+  price-description: per room per night
+  saved: 64
+  expires: 2019/02/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/77187/0dc95b0b_f720_43c1_beb2_dfb7e5fc493f.jpg
+  link: https://www.secretescapes.com/knockderry-country-house-hotel-argyll-and-bute-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Shieldaig Lodge
+  id: shieldaig-lodge
+  location: West Highlands, Scotland
+  description: Stay lochside at a converted Victorian lodge in Scotland's West Highlands
+  price: 129
+  price-description: per room per night
+  saved: 50
+  expires: 2019/02/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88537/773c42b4_a72e_4ed1_b218_44393d944679.jpg
+  link: https://www.secretescapes.com/shieldaig-lodge-west-highlands-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Forss House
+  id: forss-house
+  location: Thurso, Scottish Highlands
+  description: A charming hotel in the Scottish Highlands
+  price: 116
+  price-description: per room per night
+  saved: 30
+  expires: 2019/02/19
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/77674/0cd16993_7231_4afa_8ca6_96a4f672ea39.jpg
+  link: https://www.secretescapes.com/forss-house-thurso-scottish-highlands/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: RiverBeds Luxury Wee Lodges with Hot Tubs
+  id: riverbeds-luxury-wee-lodges-with-hot-tubs
+  location: Glencoe Valley, Scotland
+  description: A boutique-style lodge stay with hot tub in Scotland’s Glencoe Valley
+  price: 195
+  price-description: per lodge per night
+  saved: 45
+  expires: 2019/02/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/80622/e5399b51_4acd_4a55_abf1_f195ba0911b0.jpg
+  link: https://www.secretescapes.com/riverbeds-luxury-wee-lodges-glencoe-valley-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  
+
+- title: Grand Central Hotel
+  id: grand-central-hotel
+  location: Glasgow, Scotland
+  description: A stylish and award-winning hotel in the heart of Glasgow
+  price: 99
+  price-description: per room per night
+  saved: 34
+  expires: 2019/02/26
+  image: https://d1x3cbuht6sy0f.cloudfront.net/sales/88520/449f1b07_8df3_4b5b_8c17_209c519f7ab2.jpg
+  link: https://www.secretescapes.com/grand-central-hotel-glasgow-scotland/sale?utm_source=SE_media&utm_medium=VisitScotland&utm_campaign=February2019
+  

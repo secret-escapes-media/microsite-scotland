@@ -10,11 +10,14 @@ layout: default
       <div class="bob__img">
         <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/content/{{guide.id}}/banner.jpg);">
           <a href="{{site.baseurl}}{{guide.url}}" class="bg-img__link"></a>
+          <div class="bg-img__location">
+            <div class="img-location img-location--sm">{{guide.banner.location}}</div>
+          </div>
         </div>
       </div>
       <div class="bob__text">
         <h2 class="title title--lg text--bold">{{guide.title}}</h2>
-        <p>{{guide.intro | truncate:160}}</p>
+        <p>{{guide.intro}}</p>
         <div class="space--xs"></div>
         <a href="{{site.baseurl}}{{guide.url}}" class="btn btn--solid">Read more</a>
       </div>
