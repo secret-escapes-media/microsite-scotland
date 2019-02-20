@@ -9,6 +9,7 @@
   height: 100%;
   min-height: 450px;
   max-height: 700px;
+  text-align: center;
   color: $white;
   background-color: $grey;
   @include bp($lg){
@@ -73,10 +74,10 @@
   &__scotlandisnow {
     position: absolute;
     bottom: $s10;
-    right: auto;
-    left: auto;
-    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
     @include bp($xl){
+      transform: none;
       right: $s4;
       left: auto;
       text-align: right;

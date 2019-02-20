@@ -1,8 +1,8 @@
 # Site settings
 title: Scotland
 client:
-  name: Visit Scotland
-  link: "#client-name"
+  name: VisitScotland
+  link: "https://www.visitscotland.com"
 core-se-link: https://www.secretescapes.com/current-sales
 description: >
   As winter turns to spring, the sweeping landscapes of Scotland begin to shine with life once more - there’s simply no better time to visit Scotland.
